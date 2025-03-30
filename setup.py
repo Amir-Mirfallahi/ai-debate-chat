@@ -5,20 +5,21 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="ai_debate_chat",
-    version="0.1.0",
+    version="0.1.1",
     author="Amir Mirfallahi",
-    author_email="amirm@example.com",  # Replace with your actual email
+    author_email="mirfallahi2009@gmail.com",  # Replace with your actual email
     description="A package for AI debate and chat functionalities",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Amir-Mirfallahi/ai_debate_chat_AmirMirfallahi",  # Replace with your actual repository URL
+    
+    url="https://github.com/Amir-Mirfallahi/ai-debate-chat",  # Replace with your actual repository URL
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.9",
+    python_requires=">=3.10",
     install_requires=[
         "beautifulsoup4>=4.13.3",
         "faiss-cpu>=1.10.0",
